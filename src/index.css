@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply m-0 p-0 box-border
+    }
+    h1 {
+        @apply font-rubic font-normal text-30 xl:text-40 leading-40 xl:leading-50 text-white
+    }
+    h2 {
+        @apply font-rubic font-normal text-22 lg:text-32 leading-32 lg:leading-42 tracking-[0.01em] text-black-100
+    }
+    h3 {
+        @apply font-roboto font-bold text-20 leading-30 tracking-wider text-gray-100 text-center
+    }
+    h4 {
+        @apply font-roboto font-normal text-20 leading-30 text-white
+    }
+    h5 {
+        @apply font-roboto font-normal text-16 leading-26 tracking-[0.02em] text-white
+    }
+    h6 {
+        @apply font-rubic font-normal text-24 leading-36 text-white
+    }
+    p {
+        @apply font-roboto font-normal text-20 leading-30 text-white pt-10
+    }
+}
+
+@layer components {
+    .container-fluid {
+        @apply px-5 md:px-[45px] lg:px-[65px]
+    }
+    .btn {
+        @apply font-roboto font-bold text-base leading-[26px] text-center text-gray-100 bg-yellow-100 hover:bg-white rounded-10 py-12 px-31 cursor-pointer border border-transparent hover:border-gray-100
+    }
+    .sitewide {
+        @apply text-white font-roboto font-normal text-16 leading-26
+    }
+}
+
+@layer utilities {
+    .navigation ul li {
+        @apply midscreen:px-15 px-30 font-roboto font-bold text-18 leading-26 text-center tracking-wider text-gray-100 hover:text-blue-100
+    }
+    h1 span {
+        @apply font-bold
+    }
+    .pakage-inner h2 span {
+        @apply capitalize text-blue-200 font-bold
+    }
+    .card-content h3 {
+        @apply pt-30
+    }
+    .blue-box h4 span {
+        @apply font-bold
+    }
+    .blue-box p {
+        @apply text-14 leading-24 text-white italic
+    }
+    .pet-girl img {
+        @apply -translate-y-[56px] bg-gray-100 shadow-custom rounded-10 max-h-[601px] h-[601px] w-[448px] object-cover
+    }
+    .story-content h2 {
+        @apply text-white pt-10
+    }
+    .story-content h2 span {
+        @apply font-bold
+    }
+    .story-content p, .manufacturer-inner p {
+        @apply text-16 leading-26
+    }
+    .banner-slider .swiper-pagination-bullet {
+        @apply w-[23.56px] h-[7px] rounded-[0] bg-white opacity-1
+    }
+    .banner-slider .swiper-pagination-bullet-active {
+        @apply bg-yellow-100
+    }
+    .banner-slider .swiper-pagination {
+        @apply xl:text-end !left-auto !bottom-[5%] xl:pr-[65px]
+    }
+    .slide-img img{
+        background: #444444;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        max-height: 545px;
+        width: 100%;
+    }
+    .upper-content p {
+        @apply text-gray-100 text-center text-16 leading-26 max-w-[864px] mx-auto
+    }
+
+    /* wide slider */
+    .wide-slider .swiper-button-prev{
+        @apply left-0 
+    }
+    .wide-slider .swiper-button-next {
+        @apply right-0
+    }
+    .wide-slider .swiper-button-prev:after,.wide-slider .swiper-button-next:after{
+        content: '';
+    }
+
+    /*  */
+    .manufacturer-inner .content h2{
+        @apply text-white font-bold
+    }
+    .gray-box h3{
+        @apply text-start
+    }
+    .gray-box p{
+        @apply text-gray-100 text-16 leading-26 pt-10
+    }
+    
+}

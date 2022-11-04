@@ -1,0 +1,401 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="http://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <title>Hughes Enterprises</title>
+</head>
+
+<body>
+  <header>
+    <div class="sitewide lgscreen:hidden py-4 bg-green-100">
+      <div class="container-fluid">
+        <div class="flex justify-between">
+          <div class="left flex items-center fadeIn">
+            <h5>Example of sitewide notice goes here</h5>
+          </div>
+          <div class="right flex items-center fadeIn">
+            <a href="#" class="btn mx-10">Request a Quote</a>
+            <a href="#" class="btn mx-10">View Catalog</a>
+            <div class="flex px-[39px] items-center">
+              <div class="cursor-pointer hover:text-blue-200">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span class="pl-[10px]">(267) 409-6100</span>
+              </div>
+            </div>
+            <a href="#" class="search-icon hover:text-blue-200">
+              <i class="fa fa-search cursor-pointer" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bot">
+      <div class="container-fluid">
+        <div class="flex items-center justify-between py-29">
+          <div class="logo smscreen:max-w-[200px] cursor-pointer">
+            <a href="#">
+              <img src="./assets/images/logo.svg" alt="" />
+            </a>
+          </div>
+          <span class="block xl:hidden text-3xl cursor-pointer ml-auto item-center duration-500">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+          <div class="navigation">
+            <ul
+              class="xl:flex xl:items-center z-50 xl:z-auto xl:static absolute w-full left-0 xl:w-auto xl:py-0 py-4 xl:pl-0 px-7 xlscreen:opacity-0">
+              <li><a href="#">Equipment</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Industries</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Resources</a></li>
+              <li class="!pr-0"><a href="#">Sustainability</a></li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="swiper banner-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="bg-image relative">
+            <img src="./assets/images/slide1bg.png" alt="" class="h-screen xl:max-h-[704px] w-full" />
+          </div>
+          <div class="absolute top-[42px] xl:top-[72px] w-full">
+            <div class="container-fluid">
+              <div class="xlscreen:flex-col-reverse flex items-center justify-center fadeIn">
+                <div class="w-full xl:w-5/12 flex items-center">
+                  <div
+                    class="content xlscreen:mt-20 xlscreen:text-center xlscreen:flex-1 xlscreen:justify-center xl:max-w-[448px]">
+                    <h1>Welcome to a more
+                      <span>strategic packaging partnership</span>
+                    </h1>
+                    <p class="mt-20 mb-40">Think of Hughes Enterprises as an extension of your operations team. </p>
+                    <div class="mt-20 xl:mt-40">
+                      <a href="#" class="btn">Talk to a packaging expert</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="xlscreen:w-full w-7/12">
+                  <div class="slide-img">
+                    <img src="./assets/images/slide1.png" alt="" class="w-full" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="bg-image relative">
+            <img src="./assets/images/slide2bg.png" alt="" class="h-screen xl:max-h-[704px] w-full" />
+          </div>
+          <div class="absolute top-[42px] xl:top-[72px] w-full">
+            <div class="container-fluid">
+              <div class="xlscreen:flex-col-reverse flex items-center justify-center fadeIn">
+                <div class="w-full xl:w-5/12 flex items-center">
+                  <div
+                    class="content xlscreen:mt-20 xlscreen:text-center xlscreen:flex-1 xlscreen:justify-center xl:max-w-[448px]">
+                    <h1 class="fadeIn">Designing solutions to
+                      <span> your packaging & shipping problems</span>
+                    </h1>
+                    <p class="mt-20 mb-40">We specialize in designing and implementing proper packaging equipment
+                      solutions.
+                    </p>
+                    <div class="mt-20 xl:mt-40">
+                      <a href="#" class="btn">Talk to a packaging expert</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="xlscreen:w-full w-7/12">
+                  <div class="slide-img">
+                    <img src="./assets/images/slide1.png" alt="" class="w-full" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="bg-image relative">
+            <img src="./assets/images/slide3bg.png" alt="" class="h-screen xl:max-h-[704px] w-full" />
+          </div>
+          <div class="absolute top-[42px] xl:top-[72px] w-full">
+            <div class="container-fluid">
+              <div class="xlscreen:flex-col-reverse flex items-center justify-center fadeIn">
+                <div class="w-full xl:w-5/12 flex items-center">
+                  <div
+                    class="content xlscreen:mt-20 xlscreen:text-center xlscreen:flex-1 xlscreen:justify-center xl:max-w-[448px]">
+                    <h1>Where products and
+                      <span>equipment meet integrated packaging solutions</span>
+                    </h1>
+                    <p class="mt-20 mb-40">
+                      We deliver custom, integrated solutions to help streamline your operations.
+                    </p>
+                    <div class="mt-20 xl:mt-40">
+                      <a href="#" class="btn">Talk to a packaging expert</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="xlscreen:w-full w-7/12">
+                  <div class="slide-img">
+                    <img src="./assets/images/slide3.png" alt="" class="w-full" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </section>
+  <section class="section2">
+    <div class="bg-img relative">
+      <img src="./assets/images/sec2bg.png" alt="" />
+      <div class="packaging py-127 absolute top-0 w-full">
+        <div class="container-fluid">
+          <div class="pakage-inner">
+            <div class="upper-content fadeIn">
+              <h2 class="max-w-[525px] text-center mx-auto mb-10">
+                Packaging challenges are no match for
+                <span>Hughes Enterprises</span>
+              </h2>
+              <p>There are plenty of packaging products out there. We help you cut through the clutter to find
+                the best
+                machines for your needs.
+              </p>
+            </div>
+            <div class="card-slider pt-78">
+              <div class="grid grid-cols-3 gap-94">
+                <div class="..."><img src="./assets/images/card1.png" alt=""></div>
+                <div class="..."><img src="./assets/images/card1.png" alt=""></div>
+                <div class="..."><img src="./assets/images/card1.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pet">
+        <div class="img absolute bottom-[-60px]">
+          <div class="relative">
+            <div class="container-fluid pr-0">
+              <img src="./assets/images/petbg.png" alt="" class="pl-52 max-h-[640px] w-screen object-cover" />
+              <div class="pet-zigzag flex items-center justify-center">
+                <div class="w-full xl:w-7/12">
+                  <div class="pet-girl absolute top-0 left-20">
+                    <div class="img">
+                      <img src="./assets/images/pet-inner.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="manager-box absolute bottom-[-48px] ml-[88px]">
+                    <div
+                      class="blue-box py-44 px-48 bg-blue-200 opacity-0.99 rounded-10 max-w-[520px] drop-shadow-custom">
+                      <div
+                        class="user bg-blue-100 w-84 h-84 rounded-full justify-center items-center flex absolute left-[-56px]">
+                        <img src="./assets/images/user.svg" alt="" />
+                      </div>
+                      <h4>
+                        <span>E-Commerce Manager</span>
+                        National Pet Supply Distributor
+                      </h4>
+                      <p>
+                        "Hughes Enterprises has been a great partner in our growth throughout the
+                        years. They are
+                        always
+                        looking for ways to provide us new and cost-effective ideas that will help
+                        us provide a great
+                        customer experience."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full xl:w-5/12 flex items-center">
+                  <div class="absolute inset-y-[116px] flex items-start max-w-[480px]">
+                    <div class="story-content">
+                      <h6 class="subtitle">
+                        Packaging Success Story
+                      </h6>
+                      <h2>
+                        Distributing pet supplies
+                        <span>
+                          without unnecessary costs or delays
+                        </span>
+                      </h2>
+                      <p>
+                        One of the nation’s top pet supply companies needed a single packaging
+                        system to support its
+                        four distribution centers throughout the U.S. Find out how a partnership
+                        with Hughes Enterprises
+                        helped them optimize spend, improve throughput and reduce unnecessary costs.
+                      </p>
+                      <div class="mt-40">
+                        <a href="#" class="btn">
+                          Read the case study
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="wide-slider my-[132px] bg-white">
+    <div class="container-fluid">
+      <div class="wide-header pt-132 pb-56">
+        <h2 class="text-center mx-auto">
+          A wide variety of <br />
+          packaging materials, supplies, and equipment <br />
+          <span class="font-bold text-blue-200">to fulfill any and all of your needs.</span>
+        </h2>
+      </div>
+      <div class="swiper wideSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="wide-img">
+              <img src="./assets/images/boxes.png" alt="" class="w-[300px] h-[154px] object-cover mx-auto">
+              <div class="title pt-[10%]">
+                <h3>Corrugated Box <br>
+                  and Packaging Supplies
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wide-img">
+              <img src="./assets/images/adhesive.png" alt="" class="w-[300px] h-[173px] object-cover mx-auto">
+              <div class="title pt-[10%]">
+                <h3>Adhesives</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wide-img">
+              <img src="./assets/images/Sanitary Supplies.png" alt="" class="w-[154px] h-[221px] object-cover mx-auto">
+              <div class="title pt-[5%]">
+                <h3>Janitorial & Sanitary Supplies</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="wide-img">
+              <img src="./assets/images/Safety Supplies.png" alt="" class="w-[260px] h-[215px] object-cover mx-auto">
+              <div class="title pt-[5%]">
+                <h3>Safety Supplies</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next rotate-180">
+          <img src="./assets/images/slider-arrow.svg" alt="" />
+        </div>
+        <div class="swiper-button-prev">
+          <img src="./assets/images/slider-arrow.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="mb-52">
+    <div class="h-[648px] w-full bg-no-repeat object-cover"
+      style="background-image:url('./assets/images/manufecturebg.png') ;">
+      <div class="w-11/12 flex justify-end mx-auto">
+        <div class="flex">
+          <div class="w-5/12">
+            <div class="manufacturer-inner max-w-[360px] py-[220px]">
+              <div class="content">
+                <h2>Featured Manufacturers</h2>
+                <p>Hughes Enterprises represents some of the industry’s leading packaging equipment brands.</p>
+                <div class="button mt-40">
+                  <a href="#" class="btn">See All Suppliers</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-7/12">
+            <div class="grid grid-rows-3 grid-flow-col gap-5 translate-y-[-56px]">
+              <div class="gray-box rounded-10 drop-shadow-custom flex items-center bg-gray-200">
+                <div class="container-fluid">
+                  <div class="product-content flex items-center">
+                    <div class="product-logo pr-48">
+                      <img src="./assets/images/Combi.svg" alt="" />
+                    </div>
+                    <div class="border-r border-gray-300 h-[123px]"></div>
+                    <div class="ml-48">
+                      <h3>Combi Packaging Systems</h3>
+                      <p>Deliver choice and customization in end-of-line packaging.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gray-box rounded-10 drop-shadow-custom flex items-center bg-gray-200">
+                <div class="container-fluid">
+                  <div class="product-content flex items-center">
+                    <div class="product-logo pr-48">
+                      <img src="./assets/images/pregis-logo.svg" alt="" />
+                    </div>
+                    <div class="border-r border-gray-300 h-[123px]"></div>
+                    <div class="ml-48">
+                      <h3>Pregis</h3>
+                      <p>Manufacturing innovative packaging and protective products.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gray-box rounded-10 drop-shadow-custom bg-gray-200 py-36">
+                <div class="container-fluid">
+                  <div class="product-content flex items-center">
+                    <div class="product-logo pr-48">
+                      <img src="./assets/images/lantech-logo.svg" alt="" />
+                    </div>
+                    <div class="border-r border-gray-300 h-[123px]"></div>
+                    <div class="ml-48">
+                      <h3>Lantech</h3>
+                      <p>Setting the standard for stretch wrapping technology.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+  integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<!-- animation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<!-- Initialize Swiper -->
+
+<script src="./main.js"></script>
+
+</html>
